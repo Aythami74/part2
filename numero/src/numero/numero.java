@@ -6,7 +6,7 @@ public class numero {
 	public static void main(String[] args) {
 		int i = 0;
 		int n = 0;
-		int numero = 0;
+		int num = 0;
 		int suma = 0;
 		int multipli = 1;
 		System.out.println("¿Cuántos números quieres sumar y multiplicar?");
@@ -17,10 +17,10 @@ public class numero {
 
 		for (i = 1; i <= n; i = i + 1) {
 			suma = leer.nextInt();
-			numero += suma;
+			num += suma;
 			multipli = multipli * suma;
 		}
-		System.out.println("La suma es " + numero);
+		System.out.println("La suma es " + num);
 		System.out.println("La multiplicacion es: " + multipli);
 		leer.close();
 	}
